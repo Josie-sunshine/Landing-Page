@@ -1,0 +1,320 @@
+body{
+ 
+    margin: 0;
+
+}
+
+/*first row*/
+
+.header {
+    background-color: #4299b6;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+
+}
+.header-start {
+    display: flex;
+    margin-right: auto;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+.header-text{
+    display: flex;
+    margin: 5px;
+}
+
+/* second row */
+
+.first-block {
+    background-color: #4299b6;
+    padding-right: 20px;
+    
+    
+}
+
+.first-block-content{
+    color: white;
+    display: flex;
+    position: aboslute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 100px;
+    padding-bottom:100px;
+
+    
+
+    flex: 1;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    height: 200px;
+}
+
+
+.first-block-words {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: wrap;
+    gap: 8px;
+    flex-shrink: 0;
+
+}
+
+img {
+    height: 200px;
+    width: 400px;
+
+}
+
+/* for button CSS, need to use theses numbers/letters for colors
+and to curve the edge, use boder-radius w */
+.prince {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #b2d9f0;
+    border: none;
+    color: rgb(83, 82, 82);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.first-block-header {
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.first-block-text {
+    display: flex;
+    font-size: 20px;
+}
+
+img {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px;
+
+}
+
+/*second row*/
+
+.seoncd-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 300px;
+
+}
+.second-block-header {
+    display: flex;
+    margin: 8px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    justify-content: center;
+
+    font-size: 24px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.second-half-block {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 25px;
+
+}
+.below-god {
+    display: flex;
+    flex-wrap: wrap;
+
+    
+    
+    align-items: space-inbetween;
+    justify-items: center;
+
+    /*  height: 150px;
+    width: 300px; */
+   
+
+    gap: 5px;
+    
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+}
+
+.four-square {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 150px;
+}
+
+
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    border: 3px solid black;
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+    border-color: #4299b6;
+    
+    
+   
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 15px;
+
+    text-align: center;
+
+    color: rgb(83, 82, 82);
+}
+
+/*third row*/
+
+.third-block {
+    background-color: lightgray;
+    justify-content: center;
+   
+}
+
+.third-block-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    padding-left:100px; 
+    padding-right: 100px;
+    flex: 1;
+    border: 10px;
+    
+   
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.switch {
+    padding: 10px;
+    border-radius: .5px;
+    border-style:hidden;
+
+}
+
+.words {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    flex-wrap: wrap; 
+    padding: 10px;
+    gap: 10px;
+
+    color: rgb(83, 82, 82);
+    font-size: 30px;
+    
+    padding: 10px;
+
+}
+
+.by {
+    display: flex;
+    flex-wrap:wrap;
+
+    
+  
+    /* I don't know why I can't just write justify-content: flex-end; */
+    padding-left: 200px;
+
+    color: rgb(20, 20, 20);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+/*fourth row*/
+
+.fourth-block {
+    display: flex;
+
+    margin: 50px;
+    background-color:lightblue;
+    color: white;
+    padding:50px;
+    border-radius: 15px;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fourth-block-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 200px;
+    height: 100px;
+   padding-top: 10px;
+}
+
+.fourth-block-words {
+text-align: center;
+}
+    
+.fourth-block-header {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.more {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #a2cce7;
+    margin: 8px;
+    color: rgb(255, 248, 248);
+    border-radius: 8px;
+    cursor: pointer;
+    border-color: white;
+    border-width: .75px;
+}
+
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-bottom: 10px;
+    background-color: darkgrey;
+    color: white;
+}
